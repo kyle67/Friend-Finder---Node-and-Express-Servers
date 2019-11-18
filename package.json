@@ -1,0 +1,19 @@
+{
+  "name": "friend-finder---node-and-express-servers",
+  "version": "1.0.0",
+  "description": "This is a node and expresss project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kyle67/Friend-Finder---Node-and-Express-Servers.git"
+  },
+  "author": "Kyle Daniels",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kyle67/Friend-Finder---Node-and-Express-Servers/issues"
+  },
+  "homepage": "https://github.com/kyle67/Friend-Finder---Node-and-Express-Servers#readme"
+}

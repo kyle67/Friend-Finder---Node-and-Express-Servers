@@ -9,6 +9,12 @@ module.exports = function(app) {
   app.post("/api/friends", function(req, res) {
     console.log(req.body.scores);
 
+    var friends = {
+        name:"",
+        photo:"",
+        friendDifference: Infinity
+
+    };
     // Receive user details (name, photo, scores)
     var user = req.body;
 

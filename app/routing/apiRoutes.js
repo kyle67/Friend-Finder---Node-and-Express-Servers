@@ -9,12 +9,7 @@ module.exports = function(app) {
   app.post("/api/friends", function(req, res) {
     console.log(req.body.scores);
 
-    var friends = {
-        name:"",
-        photo:"",
-        friendDifference: Infinity
-
-    };
+    console.log("test",friends);
     // Receive user details (name, photo, scores)
     var user = req.body;
 
@@ -31,7 +26,7 @@ module.exports = function(app) {
     //  whatever the difference is, add to the total difference
     for(var i = 0; i < friends.length; i++) {
       var totalDifference = 0;
-      for(var j = 0; j < friends[i].scores.length; j++) {
+      for(var j = 0; j < friends[i].scores; j++) {
         var difference = Math.abs(user.scores[j] - friends[i].scores[j]);
         totalDifference += difference;
       }
